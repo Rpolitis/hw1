@@ -1,0 +1,159 @@
+<!--
+Name: Ryan Politis
+File: bass.html
+Date: 9/25/23
+GUI Assignment: Creating Your First Web Page
+What the file does: This is the webpage under the "Bass" button on the navigation bar. This webpage 
+has a paragraph explaining my history starting out playing the bass guitar. It also has a table 
+that shows some of the songs I've practiced and attempted to play/memorize.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HW1 Website</title>
+	<!-- Imports css styles for the basic look of the webpage and the navigation bar at the top -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nav.css">
+  </head>
+  <body>
+	<!-- 
+		This image and div combine together to create the picture and navigation bar.
+		The photo used is of the dwarf planet Pluto at sunset captured during Nasa's New Horizons 
+		mission. NASA does not endorse anything on this page. (Image credit: NASA/JHUAPL/SwRI)
+	-->
+	<img id = "headerimg" src="images/871856.jpg">
+	<div id = "nav">
+		<a href = "index.html">About</a>
+		<a href = "bass.html">Bass</a>
+		<a href = "contact.html">Contact</a>
+	</div>
+	<!-- 
+	This div is the bulk of this page on my website. It contains a paragraph explaining my 
+	history starting out playing bass, an image of my bass taken by me, and a table of some 
+	songs that I have practiced before. I use html entities to indicate whether I can play a 
+	song and whether or not I've memorized how to play it.
+	-->
+	<div>
+		<!-- Header and paragraph -->
+		<h1>Bass Guitar</h1>
+		<p>Since senior year of high school, I've been learning and practing the bass 
+			guitar. I've always enjoyed listening to music and learning how to play 
+			songs has made me truly appreciate the amount of effort it takes to 
+			write a piece of music. Originally, I had learned to play the flute 
+			during middle school, however I didn't find enjoyment in playing it. 
+			I had thought intially that learning how to play an instrument wasn't 
+			for me. That was until I picked up the bass. Something about the heavy 
+			strings and the deep tone of the instrument spoke to me and I was hooked. 
+			I practice nearly everyday and have even started playing with my friends 
+			in our makeshift band. My friends and I are planning on making our own music in the 
+			future, although we don't expect to be professional musicians. As of now, I 
+			firmly believe that anyone can pick up an instrument and learn to play. All 
+			it takes to learn how to play an instrument is passion and a willingness to learn.
+		<p> <br> <br> <br>
+		<!-- Image of my bass guitar -->
+		<img id = "bassimg" src="images/PXL_20230926_015952064.jpg">
+		<!-- Header and table for setlist -->
+		<h1>Current Setlist:</h1>
+		<table>
+			<!-- Head of the table -->
+			<thead>
+				<tr>
+					<th><strong>Song Name & Artist</strong></th>
+					<th><strong>Can I Play It?</strong></th>
+					<th><strong>Have I Memorized it?</strong></th>
+				</tr>
+			</thead>
+			<!-- 
+			Body of the table 
+			&#x2713 is an html entity indicating a checkmark
+			&#x2717 is an html entity indicating a crossmark
+			-->
+			<tbody>
+				<tr>
+					<th>Looking Out For You - Joy Again</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Maple Syrup - The Backseat Lovers</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Kilby Girl - The Backseat Lovers</th>
+					<th>&#x2713;</th>
+					<th>&#x2717;</th>
+				</tr>
+				<tr>
+					<th>Highway Tune - Greta Van Fleet</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>For Whom the Bell Tolls - Metallica</th>
+					<th>&#x2713;</th>
+					<th>&#x2717;</th>
+				</tr>
+				<tr>
+					<th>Hysteria - Muse</th>
+					<th>&#x2717;</th>
+					<th>&#x2717;</th>
+				</tr>
+				<tr>
+					<th>Cigarette Daydreams - Cage The Elephant</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Freaks - Surf Curse</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Disco - Surf Curse</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Smooth Operator - Sade</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Dance In Room Song - Sipper</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Relentless Healing - Big Bite</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Tek It - Cafune;</th>
+					<th>&#x2713;</th>
+					<th>&#x2717;</th>
+				</tr>
+				<tr>
+					<th>Feels Like You - Whirr</th>
+					<th>&#x2713;</th>
+					<th>&#x2713;</th>
+				</tr>
+				<tr>
+					<th>Jigsaw Falling into place - Radiohead</th>
+					<th>&#x2713;</th>
+					<th>&#x2717;</th>
+				</tr>
+				<tr>
+					<th>Deantown - Vulfpeck</th>
+					<th>&#x2717;</th>
+					<th>&#x2717;</th>
+				</tr>
+			</tbody>
+		</table> <br> <br> <br>
+	</div>
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>

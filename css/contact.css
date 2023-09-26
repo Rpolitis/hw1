@@ -1,0 +1,29 @@
+/*
+Name: Ryan Politis
+File: contact.css
+Date: 9/25/23
+GUI Assignment: Creating Your First Web Page
+What the file does: Separate rules to make the contact page look different 
+from the rest of the website.
+*/
+
+#contactheader {
+    margin: 8px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#contacth2 {
+    margin: 8px;
+    padding-left: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#contactpara {
+    margin: 8px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    text-align: center;
+}

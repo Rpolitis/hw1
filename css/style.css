@@ -1,0 +1,107 @@
+/*
+Name: Ryan Politis
+File: style.css
+Date: 9/25/23
+GUI Assignment: Creating Your First Web Page
+What the file does: General style rules for every webpage.
+*/
+
+/*
+Removes margin around site and changes it to dark mode colors
+*/
+html {
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+
+* {
+    margin: 0;
+}
+
+/*
+Rules for header image and bass image
+*/
+#headerimg {
+    height: 300px;
+    display: block;
+    width: 100%;
+}
+
+#bassimg {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #ffff;
+    width: 1000px;
+}
+
+/*
+Rules for headers
+*/
+h1 {
+    padding-top: 40px;
+    padding-left: 140px;
+    margin: 8px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 140px;
+    margin: 8px;
+}
+
+/*
+Rules for paragraphs, lists, and tables
+*/
+p {
+    margin: 8px;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 40px;
+    list-style-type: none;
+    display: table;
+    margin: auto;
+    text-align: left;
+}
+
+li {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+table, th, tr {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+thead {
+    background-color: rgb(255, 251, 129);
+    color: black;
+    border-color: #ffff;
+}
+
+tbody {
+    background-color: rgb(38, 38, 39);
+    border-color: #ffff;
+}
+
+th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+tr {
+    padding-left: 30px;
+    padding-right: 30px;
+}

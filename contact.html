@@ -1,0 +1,78 @@
+<!--
+Name: Ryan Politis
+File: contact.html
+Date: 9/25/23
+GUI Assignment: Creating Your First Web Page
+What the file does: This is the webpage under the "Contact" button on the navigation bar. It contains 
+contact information including my phone number, discord username, and e-mail. It also comes with a 
+couple paragraphs that explain the best ways to get a hold of me.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HW1 Website</title>
+	<!-- Imports css styles for the basic look of the webpage and the navigation bar at the top -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/contact.css">
+  </head>
+  <body>
+	<!-- 
+		This image and div combine together to create the picture and navigation bar.
+		The photo used is of the dwarf planet Pluto at sunset captured during Nasa's New Horizons 
+		mission. NASA does not endorse anything on this page. (Image credit: NASA/JHUAPL/SwRI)
+	-->
+	<img id = "headerimg" src="images/871856.jpg">
+	<div id = "nav">
+		<a href = "index.html">About</a>
+		<a href = "bass.html">Bass</a>
+		<a href = "contact.html">Contact</a>
+	</div>
+	<!--
+	This div contains headers, a list, and paragraphs to create my contact page. The list 
+	displays my phone number, school e-mail, and discord username. Each subheader and paragraph 
+	explain which is the best way to contact me and my usual response time.
+	-->
+	<div>
+		<!-- Contact info list -->
+		<h1 id = "contactheader">Where to Contact Me:</h1>
+		<ul>
+			<li>Phone: (339)-222-4519</li>
+			<li>E-mail: Ryan_Politis@student.uml.edu</li>
+			<li>Discord: x.ryan</li>
+		</ul>
+		<h1 id = "contactheader">Helpful Information</h1>
+		<!-- Phone number contact info -->
+		<h2 id = "contacth2">Phone:</h2>
+		<p id = "contactpara"><strong>The best place to contact me is 
+			through text.</strong> I usually have my phone on me at all times and 
+			should be able to respond to your message quickly. However, it's 
+			preferable if you introduce yourself first as I may not respond 
+			to your message if I do not know who you are. <br> <br>
+			<strong>Response Time: Immediate</strong> <br> <br> <br>
+		</p>
+		<!-- E-mail contact info -->
+		<h2 id = "contacth2">E-mail:</h2>
+		<p id = "contactpara">My school email is another way I can be contacted. 
+			It's not the greatest place to send me a message as I receive a lot 
+			of emails and may not see yours immediately. Still, if you have
+			a question relating to academics or need to contact me through email 
+			for whatever reason, the option is available. <br> <br>
+			<strong>Response Time: Inconsistent</strong> <br> <br> <br>
+		</p>
+		<!-- Discord contact info -->
+		<h2 id = "contacth2">Discord:</h2>
+		<p id = "contactpara">Discord is another way to contact me that 
+			is preferable over email. My Discord direct messages should be open to 
+			everyone and I should be able to respond to your message quickly. As 
+			with texting me, you should introduce yourself first as I may not respond 
+			to your message if I do not know who you are. <br> <br>
+			<strong>Response Time: Immediate</strong> <br> <br> <br>
+
+		</p>
+	</div>
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>
